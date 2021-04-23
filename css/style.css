@@ -1,0 +1,123 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Mossabdeh | 
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+    background-image: url('../images/4853433.jpg');
+}
+#container {
+    
+    margin:0 auto 0 auto;
+    width:1000px;
+    
+}
+
+#header {
+    width: 1000px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#main {
+    width: 600px;
+    background: #FBFCFC;
+    margin: 10px 10px 10px 10px;
+
+    float: left;
+}
+
+#sidebar {
+    width: 250px;
+    background: #FBFCFC;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#footer {
+    
+}
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+h1 {
+    color: #21618C;
+    font-size:50px;
+}
+
+h2 {
+    color: #76448A;
+    font-family: 'Cabin', sans-serif;
+    font-size:30px;
+    margin:30px;
+}
+img{
+    display:block;
+    margin: 0px 20px 20px 20px;
+
+    
+}
+ul {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size:20px;
+}
+a {
+    color: #85C1E9;
+    text-decoration: none;
+}
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: #138D75;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size:20px;
+}
+#avatar {
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    background:url('../images/PhotoTaxi.jpg');
+    background-size:cover;
+    margin:10px 10px 10px 10px;
+}
+
+h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin: 20px;
+}
